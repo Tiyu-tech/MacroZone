@@ -1,5 +1,6 @@
 import { Stack } from "expo-router";
+import { HeaderTitle } from "expo-router/build/react-navigation";
 
 export default function RootLayout() {
-  return <Stack />;
+  return <Stack screenOptions={{ headerTitle: "MacroZone" }} />;
 }
